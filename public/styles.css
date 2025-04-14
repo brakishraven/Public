@@ -1,0 +1,30 @@
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border: none;
+  color: #f1f1f1;
+  width: 150px;
+  height: 130px;
+  flex-shrink: 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.card .card-body {
+  padding: 1rem;
+}
+
+.scroll-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
